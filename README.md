@@ -2,7 +2,7 @@
 
 This cloudformation template is simple example to create a highly available EC2 instance, load balanced using classic ELB, and with auto scaling configured.
 
-## Deploy CloudFormation
+## Deploy CloudFormation using GitHub Actions
 
 Current Repository uses GitHub Actions to deploy the cloudformation template in the AWS. Triggers are disabled and it is manual at the moment.
 
@@ -10,7 +10,7 @@ Once you have made the necessary change in either CloudFormation template or the
 
 You should see the pre-filled data > Validate/update the input parameters > `Run Workflow`.
 
-## Deploy using AWS CLI
+## Deploy CloudFormation using AWS CLI
 
 - Install [AWS CLIv2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and the [configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) it respective to you local system. Create a named profile for your name e.g. `ashish` is the profile name in my case
 - Clone this repo locally and make the necessary changes to cloudformation template
