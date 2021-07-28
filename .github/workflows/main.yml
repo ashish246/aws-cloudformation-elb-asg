@@ -24,7 +24,7 @@ on:
       instanceType:
         description: "Instance type of EC2 instance"
         required: true
-        default: "t2-micro"
+        default: "t2.small"
       keyName:
         description: "The key name required to ssh EC2 instance"
         required: true
